@@ -1,0 +1,53 @@
+
+/* Imágenes menu */
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+ul.menu li {
+    display: inline; 
+    margin-right: 10px; 
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 5px 10px; 
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+}
+
+/* Imágenes circulares */
+.circle-images {
+    text-align: center;
+}
+
+.circle-images img {
+    border-radius: 50%;
+    border: 5px solid  #c81e1e;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* Párrafo */
+p {
+    text-align: justify ;
+}
+
+/* Botón */
+button {
+    background-image: linear-gradient(to bottom,#ff5733, #c81e1e);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* video */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
